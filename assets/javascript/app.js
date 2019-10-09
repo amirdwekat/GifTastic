@@ -17,12 +17,12 @@ $(document).ready(function () {
 		var animal= $("#animal-input").val().trim();
 		animals.push(animal);
 		renderButtons();
-		return;
+		
 	});
 
 
 	// Getting gifs from api... onto html
-	$("button").on("click", function () {
+	$(document).on("click", "button", function () {
 		var animal = $(this).attr("data-animal");
 		var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
         animal + "&api_key=7AHoODoShyUHFSbjBFZRD8QPRHiRwP8z"
