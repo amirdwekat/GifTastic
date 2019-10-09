@@ -1,0 +1,14 @@
+
+.jumbotron{
+	/*padding: 1%;*/
+	background-color: red;
+	color: #ffffff;
+}
+
+#movies{
+	padding: 3%;
+}
+
+div{
+	margin-bottom: 2%;
+}
